@@ -1,0 +1,31 @@
+.header-drawer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    padding: 1rem 0rem;
+}
+
+.header-drawer img {
+    height: 100px;
+    width: 100px;
+    background-color: transparent;  
+    
+}
+.logo {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.footer-drawer {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+li{
+    padding:5px;
+}
