@@ -1,0 +1,32 @@
+.model {
+    position: fixed;
+    top: 0;
+    left: -200px;
+    width: 200px;
+    height: 100vh;
+    background-color: #c3c0c0;
+    box-shadow: 1px 1px 1px #9a9a9a;
+    z-index: 30;
+    -webkit-animation: slide 0.5s forwards;
+    -webkit-animation-delay: 0.5s;
+    animation: slide 0.5s forwards;
+    animation-delay: 0.5s;
+  }
+  
+  @-webkit-keyframes slide {
+      0% {
+        left: -200px;
+      }
+      100% {
+        left: 0;
+      }
+    }
+  
+  @keyframes slide {
+      0% {
+        left: -200px;
+      }
+      100% {
+        left: 0;
+      }
+    }

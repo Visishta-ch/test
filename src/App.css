@@ -1,0 +1,27 @@
+
+.modal-tab{
+  display: flex;
+  flex-direction: column;
+}
+.modal-tab input{
+  width:200px
+}
+.form{
+  display: flex;
+  justify-content:space-evenly;
+}
+
+
+.pagination{
+  padding: 12px;
+  margin: 15px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pagination span {
+  border: 1px solid rgb(202, 201, 201);
+  padding: 10px 15px;
+  cursor: pointer; 
+  
+}
